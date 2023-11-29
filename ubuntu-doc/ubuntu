@@ -1,0 +1,15 @@
+# part de l'os ubuntu recherche dans  os ubuntu
+FROM ubuntu:20.04
+# lance telechargement
+RUN apt update 
+#lance installation nginx, php et fpm
+RUN apt install -y nginx, php-fpm
+
+RUN cd/etc/nginx/site-enable
+RUN nano default
+
+
+RUN cd /var/www/html
+RUN mkdir ubuntu1
+ 
+
